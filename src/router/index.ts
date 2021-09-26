@@ -26,9 +26,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'hash',
-  base: process.env.NODE_ENV === 'production'
-    ? '/website-skilift-salhoehe/'
-    : '/',
+  base: '/website-skilift-salhoehe/',
   routes
 })
 
