@@ -26,7 +26,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'hash',
-  base: '/website-skilift-salhoehe/',
+  base: 'https://dystopia3103.github.io/website-skilift-salhoehe/',
   routes
 })
 
