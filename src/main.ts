@@ -4,7 +4,8 @@ import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faArrowLeft, faArrowRight, faGlassCheers, faUserFriends, faBook, faExchangeAlt, faSkiing, faSnowboarding,
   faHome, faMapMarkerAlt, faEnvelope, faGlobe, faBus, faCar, faRoad, faCalendar, faSnowflake } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '../node_modules/@fortawesome/vue-fontawesome'
+//import { faXing } from '../node_modules/@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import '@/assets/scss/main.scss';
