@@ -68,6 +68,17 @@
   justify-content: center;
   align-items: center;
 
-  width: 12vw;
+  svg {
+    display: none;
+  }
+
+  @include from($desktop) {
+    width: 12vw;
+    flex-direction: column;
+
+    svg {
+      display: block;
+    }
+  }
 }
 </style>

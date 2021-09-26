@@ -69,10 +69,10 @@ export default class Home extends Vue {
 }
 
 #home-carousel, .carousel-items, .carousel, .carousel-item {
-  height: 20rem;
+  height: 15rem;
 
   figure {
-    height: 20rem;
+    height: 15rem;
   }
 
   @include from($tablet) {
