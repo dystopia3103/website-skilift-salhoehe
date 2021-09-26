@@ -8,19 +8,19 @@
         </b-navbar-item>
       </template>
       <template #start>
-        <b-navbar-item class="nav-link" href="/">
+        <b-navbar-item class="nav-link" :to="{ path: '/' }">
           <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
             <font-awesome-icon icon="home" size="lg" class="mb-1 has-text-primary"/>
             <p class="is-size-6">Home</p>
           </div>
         </b-navbar-item>
-        <b-navbar-item class="nav-link" href="/#/ueber-uns">
+        <b-navbar-item class="nav-link" :to="{ path: '/ueber-uns' }">
           <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
             <font-awesome-icon icon="skiing" size="lg" class="mb-1 has-text-primary"/>
             <p class="is-size-6">Über uns</p>
           </div>
         </b-navbar-item>
-        <b-navbar-item class="nav-link" href="/#/kontakt-und-anfahrt">
+        <b-navbar-item class="nav-link" :to="{ path: '/kontakt-und-anfahrt' }">
           <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
             <font-awesome-icon icon="map-marker-alt" size="lg" class="mb-1 has-text-primary"/>
             <p class="is-size-6">Infos</p>
