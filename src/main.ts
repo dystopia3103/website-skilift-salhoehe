@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faArrowLeft, faArrowRight, faGlassCheers, faUserFriends, faBook, faExchangeAlt, faSkiing, faSnowboarding,
-  faHome, faMapMarkerAlt, faEnvelope, faGlobe, faBus, faCar, faRoad, faCalendar, faSnowflake } from '@fortawesome/free-solid-svg-icons'
-//import { faXing } from '../node_modules/@fortawesome/free-brands-svg-icons';
+  faHome, faMapMarkerAlt, faEnvelope, faGlobe, faBus, faCar, faRoad, faCalendar, faSnowflake, faGrinWink, faCalendarAlt,
+  faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
@@ -17,7 +17,8 @@ Vue.use(Buefy, {
 })
 
 library.add(faArrowLeft, faArrowRight, faGlassCheers, faUserFriends, faBook, faExchangeAlt, faSkiing, faSnowboarding,
-  faHome, faMapMarkerAlt, faEnvelope, faGlobe, faBus, faCar, faRoad, faCalendar, faSnowflake);
+    faHome, faMapMarkerAlt, faEnvelope, faGlobe, faBus, faCar, faRoad, faCalendar, faSnowflake, faGrinWink, faCalendarAlt,
+    faPhone);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

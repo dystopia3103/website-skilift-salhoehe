@@ -1,29 +1,74 @@
 <template>
   <div class="home">
-    <section class="hero is-light">
-      <div class="hero-body has-text-centered is-flex-direction-column is-justify-content-center">
-        <h1 class="title">Willkommen!</h1>
-        <p class="subtitle">Wir sind das Schii-Team Salhöchi</p>
-      </div>
-    </section>
-    <section class="section is-flex-direction-column is-justify-content-center">
-      <div class="card">
-        <div class="card-content">
-          <b-carousel id="home-carousel"
-                      arrow="true"
-                      repeat="true"
-                      arrow-hover="true"
-                      indicator="false"
-                      icon-pack="fas"
-                      icon-prev="arrow-left"
-                      icon-next="arrow-right">
-            <b-carousel-item v-for="(item, i) in 6" :key="i">
-              <b-image class="image" :src="getImgUrl(i)" />
-            </b-carousel-item>
-          </b-carousel>
+
+    <section class="hero is-light is-fullheight-with-navbar">
+      <div class="hero-body">
+
+        <div class="container has-text-centered">
+
+          <h1 class="title">Willkommen!</h1>
+          <p class="subtitle">Wir sind das schii-team saalhöchi</p>
+
+          <div class="columns">
+            <div class="column">
+
+              <div class="card mt-5" style="height: 100%">
+                <div class="card-image">
+                  <figure class="image is-3by1">
+                    <img src="gallery/team.jpg" alt="Teamfoto">
+                  </figure>
+                </div>
+                <article class="card-content">
+                  <p class="has-text-weight-semibold is-size-4">Lernen Sie uns kennen...<font-awesome-icon icon="grin-wink" size="lg" class="ml-4" /></p>
+                  <b-button type="is-primary mt-5" tag="router-link" to="/ueber-uns">Über uns</b-button>
+                </article>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card mt-5" style="height: 100%">
+                <div class="card-image">
+                  <figure class="image is-3by1">
+                    <img src="gallery/skiing1.jpg" alt="Teamfoto">
+                  </figure>
+                </div>
+                <article class="card-content">
+                  <p class="has-text-weight-semibold is-size-4">... oder planen Sie Ihren Besuch<font-awesome-icon icon="calendar-alt" size="lg" class="ml-4" /></p>
+                  <b-button type="is-primary mt-5" tag="router-link" to="/kontakt-und-anfahrt">Infos</b-button>
+                </article>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="hero is-fullheight-with-navbar is-primary">
+      <div class="hero-body has-text-centered is-flex-direction-column is-justify-content-center">
+        <h1 class="title">Impressionen</h1>
+        <p class="subtitle">Unser Skilift im Betrieb</p>
+        <div class="card mt-5">
+          <div class="card-content">
+            <div class="container">
+              <b-carousel id="home-carousel"
+                          arrow="true"
+                          repeat="true"
+                          arrow-hover="true"
+                          indicator="false"
+                          icon-pack="fas"
+                          icon-prev="arrow-left"
+                          icon-next="arrow-right">
+                <b-carousel-item v-for="(item, i) in 6" :key="i">
+                  <b-image class="image" :src="getImgUrl(i)" />
+                </b-carousel-item>
+              </b-carousel>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -64,23 +109,11 @@ export default class Home extends Vue {
 <style lang="scss">
 @import "src/assets/scss/main.scss";
 
-.card {
-  width: 100%;
-}
-
 #home-carousel, .carousel-items, .carousel, .carousel-item {
-  height: 15rem;
+  max-height: 60vh;
 
   figure {
-    height: 15rem;
-  }
-
-  @include from($tablet) {
-    height: 45rem;
-
-    figure {
-      height: 45rem;
-    }
+    max-height: 60vh;
   }
 }
 </style>

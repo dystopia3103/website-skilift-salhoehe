@@ -1,40 +1,41 @@
 <template>
   <div id="app">
-    <b-navbar mobile-burger fixed-top type="is-white" id="nav">
+    <b-navbar mobile-burger fixed-top id="nav">
       <template #brand>
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img src="@/assets/images/logo.png" id="brand"
+          <img src="@/assets/images/skilift_logo.svg" id="brand"
                alt="Vereinslogo">
+          <span id="brand-title" class="title has-text-weight-semibold mr-5">schii - team saalhöchi</span>
         </b-navbar-item>
       </template>
       <template #start>
-        <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/' }">
-          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-            <font-awesome-icon icon="home" size="lg" class="mb-1 has-text-primary"/>
-            <p class="is-size-6">Home</p>
-          </div>
-        </b-navbar-item>
-        <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/ueber-uns' }">
-          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-            <font-awesome-icon icon="skiing" size="lg" class="mb-1 has-text-primary"/>
-            <p class="is-size-6">Über uns</p>
-          </div>
-        </b-navbar-item>
-        <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/kontakt-und-anfahrt' }">
-          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-            <font-awesome-icon icon="map-marker-alt" size="lg" class="mb-1 has-text-primary"/>
-            <p class="is-size-6">Infos</p>
-          </div>
-        </b-navbar-item>
+          <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/' }">
+            <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+              <font-awesome-icon icon="home" size="lg" class="mb-1 has-text-primary"/>
+              <p class="is-size-6 has-text-weight-semibold">Home</p>
+            </div>
+          </b-navbar-item>
+          <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/ueber-uns' }">
+            <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+              <font-awesome-icon icon="skiing" size="lg" class="mb-1 has-text-primary"/>
+              <p class="is-size-6 has-text-weight-semibold">Über uns</p>
+            </div>
+          </b-navbar-item>
+          <b-navbar-item class="nav-link" tag="router-link" :to="{ path: '/kontakt-und-anfahrt' }">
+            <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+              <font-awesome-icon icon="map-marker-alt" size="lg" class="mb-1 has-text-primary"/>
+              <p class="is-size-6 has-text-weight-semibold">Infos</p>
+            </div>
+          </b-navbar-item>
       </template>
     </b-navbar>
     <router-view/>
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>Kontakt Schii-Team <strong>Fredy Erb</strong><br>
-          <a href="mailto:#">
+        <p>Kontakt schii-team<br>
+          <a href="mailto:salhoehe@gmail.com">
             <font-awesome-icon icon="envelope" class="has-text-primary"/>
-            TBD</a><br>
+            salhoehe@gmail.com</a><br>
         </p>
 
         <p>Webseite von <strong>Petra Schär</strong><br>
@@ -55,12 +56,49 @@
 
 .navbar {
   box-sizing: border-box;
-  border-bottom: 3px solid $primary;
+  border-bottom: 5px solid $primary;
 }
 
-#brand {
-  min-height: 5rem;
+div.navbar-brand {
+  min-width: 9rem;
+
+  > a {
+    min-width: 9rem;
+
+    > #brand {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      min-height: 7rem;
+      transition: all 0.5s ease;
+    }
+
+    > #brand-title {
+      display: none;
+      margin-left: 10rem;
+      font-weight: bold;
+      transition: all 0.5s ease;
+
+      @include from($desktop) {
+        display: inline;
+      }
+    }
+  }
+
+  &:hover {
+    > a {
+      > #brand {
+        transform: scale(1.075, 1.075) rotate(-2deg);
+      }
+
+      > #brand-title {
+        transform: scale(1.05, 1.05);
+      }
+    }
+  }
 }
+
 
 .nav-link {
   display: flex;
@@ -68,12 +106,8 @@
   justify-content: center;
   align-items: center;
 
-  svg {
-    display: none;
-  }
-
   @include from($desktop) {
-    width: 12vw;
+    width: 8rem;
     flex-direction: column;
 
     svg {
