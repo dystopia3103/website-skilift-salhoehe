@@ -98,7 +98,7 @@
                   </tr>
                   <tr>
                     <td class="table-success">Skilift-Info-Telefon</td>
-                    <td class="table-success"><a href="tel:+41628771669">062 877 16 69</a></td>
+                    <td class="table-success"><a href="tel:+41796063114">079 606 31 14</a></td>
                   </tr>
                 </table>
               </div>
