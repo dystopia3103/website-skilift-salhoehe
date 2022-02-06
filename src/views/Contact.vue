@@ -50,6 +50,12 @@
 						<article class="card-content">
 							<div class="table-container">
 								<table class="table is-fullwidth">
+									<colgroup>
+										<col style="width: 30%" />
+										<col style="width: 30%" />
+										<col style="width: 20%" />
+										<col style="width: 20%" />
+									</colgroup>
 									<tr>
 										<th>Mittwoch</th>
 										<th>Freitag</th>
@@ -81,8 +87,8 @@
 								<strong
 									class="has-text-danger">geschlossen</strong>.</p>
 							<p class="has-text-centered">Leider liegt momentan noch nicht genügend Schnee, um den Skilift
-								in Betrieb zu nehmen. Wir stehen aber in den Startlöchern und freuen uns darauf, die Piste
-								für vergnügliche Schneetage zu präparieren, sobald dies möglich ist.
+								sicher zu betreiben. Wir stehen aber in den Startlöchern und freuen uns darauf, die Piste
+								für vergnügliche Schneetage bereitzustellen.
 							</p>
 							<p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 06.02.2022</p>
 						</article>

@@ -53,13 +53,13 @@
 		<section class="hero is-fullheight-with-navbar is-primary">
 			<div class="hero-body has-text-centered is-flex-direction-column is-justify-content-center">
 				<h1 class="title">Impressionen</h1>
-				<p class="subtitle">Unser Skilift im Betrieb</p>
+				<p class="subtitle">Unser Skilift in Betrieb</p>
 				<div class="card mt-5">
 					<div class="card-content">
 						<div class="container">
 							<b-carousel id="home-carousel" arrow="true" repeat="true" arrow-hover="true" indicator="false"
 								icon-pack="fas" icon-prev="arrow-left" icon-next="arrow-right">
-								<b-carousel-item v-for="(item, i) in 6" :key="i">
+								<b-carousel-item v-for="(item, i) in 9" :key="i">
 									<b-image class="image" :src="getImgUrl(i)"/>
 								</b-carousel-item>
 							</b-carousel>

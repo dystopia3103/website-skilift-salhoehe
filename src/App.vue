@@ -89,11 +89,11 @@ div.navbar-brand {
   &:hover {
     > a {
       > #brand {
-        transform: scale(1.075, 1.075) rotate(-2deg);
+        transform: scale(1.09, 1.09) rotate(-2deg);
       }
 
       > #brand-title {
-        transform: scale(1.05, 1.05);
+        transform: scale(1.07, 1.07);
       }
     }
   }
