@@ -85,12 +85,11 @@
 						<article class="card-content">
 							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist aktuell
 								<strong
-									class="has-text-danger">geschlossen</strong>.</p>
-							<p class="has-text-centered">Leider liegt momentan noch nicht genügend Schnee, um den Skilift
-								sicher zu betreiben. Wir stehen aber in den Startlöchern und freuen uns darauf, die Piste
-								für vergnügliche Schneetage bereitzustellen.
+									class="has-text-warning">geschlossen</strong>.</p>
+							<p class="has-text-centered">Während der erste Schnee fällt bereiten wir uns vor für die Saison.
+                Sobald Skilift und Team Startbereit sind, freuen wir uns dich bei uns begrüssen zu dürfen!
 							</p>
-							<p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 06.02.2022</p>
+							<p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 10.120.2022</p>
 						</article>
 					</div>
 					<div class="card mt-5 mb-5">
