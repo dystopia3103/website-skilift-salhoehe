@@ -86,10 +86,9 @@
 							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist aktuell
 								<strong
 									class="has-text-warning">geschlossen</strong>.</p>
-              <p class="has-text-centered">Wir sind bereit für die diesjährige Wintersaison.
-                Sobald genügend Schnee liegt starten wir mit dem Skiliftbetrieb. Wir freuen uns, Sie bald bei uns
-                begrüssen zu dürfen!</p>
-							<p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 6.1.2023</p>
+              <p class="has-text-centered">Der Skilift ist aktuell geschlossen und wir geniessen die Sommerpause.<br>
+                Wir freuen uns, Sie im kommenden Winter bei uns begrüssen zu dürfen.</p>
+              <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 20.04.2024</p>
 						</article>
 					</div>
 					<div class="card mt-5 mb-5">
