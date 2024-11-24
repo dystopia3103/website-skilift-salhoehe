@@ -83,12 +83,11 @@
 							<p class="card-header-title subtitle">Aktuelles</p>
 						</header>
 						<article class="card-content">
-							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist aktuell
+							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist 
 								<strong
-									class="has-text-warning">geschlossen</strong>.</p>
-              <p class="has-text-centered">Der Skilift ist aktuell geschlossen und wir geniessen die Sommerpause.<br>
-                Wir freuen uns, Sie im kommenden Winter bei uns begrüssen zu dürfen.</p>
-              <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 20.04.2024</p>
+									class="has-text-success">offen</strong>.</p>
+              <p class="has-text-centered">Heute Sonntag ab 13:00 Uhr läuft der Schlepplift. Wir freuen uns auf ihren Besuch!</p>
+              <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 24.11.2024</p>
 						</article>
 					</div>
 					<div class="card mt-5 mb-5">
