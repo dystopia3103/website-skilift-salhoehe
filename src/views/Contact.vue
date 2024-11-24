@@ -85,8 +85,10 @@
 						<article class="card-content">
 							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist 
 								<strong
-									class="has-text-success">offen</strong>.</p>
-              <p class="has-text-centered">Heute Sonntag ab 13:00 Uhr läuft der Schlepplift. Wir freuen uns auf ihren Besuch!</p>
+									class="has-text-warning">geschlossen</strong>.</p>
+              <p class="has-text-centered">Wir sind bereit für die diesjährige Wintersaison.
+                Sobald genügend Schnee liegt starten wir mit dem Skiliftbetrieb. Wir freuen uns, Sie bald bei uns
+                begrüssen zu dürfen!</p>
               <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 24.11.2024</p>
 						</article>
 					</div>
