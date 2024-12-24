@@ -92,7 +92,7 @@
               </tr>
               <tr>
                 <td>Kassierin</td>
-                <td>Isabella Schmid-Reimann</td>
+                <td>Deborah Sommerhalder</td>
               </tr>
               <tr>
                 <td>Beisitz</td>
