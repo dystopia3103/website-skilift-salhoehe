@@ -37,15 +37,6 @@
             <font-awesome-icon icon="envelope" class="has-text-primary"/>
             salhoehe@gmail.com</a><br>
         </p>
-
-        <p>Webseite von <strong>Petra Schär</strong><br>
-          <a target="_blank" href="https://www.xing.com/profile/Petra_Schaer3/cv">
-            <font-awesome-icon icon="globe" class="has-text-primary"/>
-            Xing</a><br>
-          <a href="mailto:schaerpe@gmail.com">
-            <font-awesome-icon icon="envelope" class="has-text-primary"/>
-            schaerpe@gmail.com</a><br>
-        </p>
       </div>
     </footer>
   </div>

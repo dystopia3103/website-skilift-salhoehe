@@ -63,9 +63,9 @@
 										<th>Sonntag</th>
 									</tr>
 									<tr>
-										<td class="table-success">19- 22 Uhr<br><span class="has-text-primary">Nachtskifahren mit beleuchteter Piste</span>
+										<td class="table-success">Ab 19 Uhr<br><span class="has-text-primary">Nachtskifahren mit beleuchteter Piste</span>
 										</td>
-										<td class="table-success">19- 22 Uhr<br><span class="has-text-primary">Nachtskifahren mit beleuchteter Piste</span>
+										<td class="table-success">Ab 19 Uhr<br><span class="has-text-primary">Nachtskifahren mit beleuchteter Piste</span>
 										</td>
 										<td class="table-success">13 - 17 Uhr</td>
 										<td class="table-success">13 - 17 Uhr</td>
@@ -83,13 +83,11 @@
 							<p class="card-header-title subtitle">Aktuelles</p>
 						</header>
 						<article class="card-content">
-							<p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist 
-								<strong
-									class="has-text-warning">geschlossen</strong>.</p>
-              <p class="has-text-centered">Wir sind bereit für die diesjährige Wintersaison.
-                Sobald genügend Schnee liegt starten wir mit dem Skiliftbetrieb. Wir freuen uns, Sie bald bei uns
-                begrüssen zu dürfen!</p>
-              <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 24.11.2024</p>
+              <p class="has-text-centered has-text-weight-semibold is-size-3">Der Skilift ist
+                <strong
+                    class="has-text-success">Geöffnet</strong></p>
+              <p class="has-text-centered">Wir freuen uns auf Sie!</p>
+              <p class="has-text-right has-text-grey mt-5">Zuletzt aktualisiert am 11.01.2026</p>
 						</article>
 					</div>
 					<div class="card mt-5 mb-5">
